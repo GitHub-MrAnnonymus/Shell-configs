@@ -5,8 +5,6 @@ version = 2
 final_space = true
 console_title_template = '{{ .Shell }} in {{ .Folder }}'
 
-# Fixed colors (as in the old ~/.p10k.zsh) instead of the terminal's palette, which
-# matugen regenerates from the wallpaper.
 [palette]
   grey = '#6c6c6c'
   red = '#FF5C57'
