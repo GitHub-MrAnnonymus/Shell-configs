@@ -1,6 +1,6 @@
 # Shell-configs
 
-My zsh setup and neofetch configuration.
+My zsh setup.
 
 - **zsh** with [zinit](https://github.com/zdharma-continuum/zinit) for plugins: syntax
   highlighting, autosuggestions, extra completions and fzf-tab, plus oh-my-zsh's git,
@@ -15,7 +15,6 @@ My zsh setup and neofetch configuration.
 |---|---|
 | `zshrc` | `~/.zshrc` |
 | `ohmyposh/zen.toml` | `~/.config/ohmyposh/zen.toml` |
-| `config.conf` | `~/.config/neofetch/config.conf` |
 
 ## Installation (Arch Linux)
 
@@ -35,9 +34,8 @@ My zsh setup and neofetch configuration.
    git clone https://github.com/GitHub-MrAnnonymus/Shell-configs.git
    cd Shell-configs
    cp zshrc ~/.zshrc
-   mkdir -p ~/.config/ohmyposh ~/.config/neofetch
+   mkdir -p ~/.config/ohmyposh
    cp ohmyposh/zen.toml ~/.config/ohmyposh/
-   cp config.conf ~/.config/neofetch/   # optional, for neofetch
    ```
 
    Back up your own `~/.zshrc` first if you have one.
